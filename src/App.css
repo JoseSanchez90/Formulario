@@ -1,0 +1,15 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fade-bg {
+    animation: backg 2s linear;
+}
+@keyframes backg {
+    0% {
+        background-color: rgb(163, 163, 163);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
